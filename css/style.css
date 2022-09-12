@@ -31,8 +31,6 @@ header{
 .tablet-icons{
     margin: 15px;
     font-size: 18px;
-    
-    
 }
 .smooth{
     color:gray;
@@ -62,8 +60,7 @@ header{
 }
 .bootstrap-paragraph{
     font-size: 28px;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 .nav-bar{
     display: flex;
@@ -101,7 +98,6 @@ header{
  .subtitle > img{
     width: 300px;
     height:30px;
-    
  }
  
  .title{
@@ -121,7 +117,7 @@ header{
     text-align: center;
  }
  .port > p{
-    color: #2C3E50;
+    color:#2C3E50;
     font-size: 53px;
     font-weight: bold;
     padding-bottom:5px;
@@ -133,7 +129,6 @@ header{
 
  .card{
     width:25.3%;
-    
  }
  .card > img{
     border-radius:10px ;
@@ -150,3 +145,24 @@ header{
  .card-down{
     margin-bottom: 35px;
  }
+ .about-container{
+   height:102vh;
+    background-color: #1ABC9C;
+    padding-top: 10vh;
+    margin-top: 10vh;
+ }
+ .top{
+    padding-top :33vh;
+ }
+ .about-text{
+    display: flex;
+    justify-content: center;
+ }
+ .frelance{
+    width:25%;
+    color:white;
+    padding-right: 30px;
+    padding-top:20px;
+    font-size: 18px;
+ }
+ 
