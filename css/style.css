@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 
 }
-
+/* header-section */
 header{
     background-color: #f0f0f0;
     width:100%;
@@ -19,6 +19,7 @@ header{
     justify-content: space-between;
     background-color: white;
     align-items: center;
+    border-bottom: solid orangered 4px;
    
 }
 .tablet-icons{
@@ -38,6 +39,27 @@ header{
     display:flex;
     align-items: center;;
 }
-.end-header{
+.nav-container{
+    display: flex;
+    height: 16vh;
+    background-color: #2C3E50;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    padding: 0 90px;
+}
+.bootstrap-paragraph{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold; 
+}
 
+.nav-links{
+    padding-right:40px;
 }
